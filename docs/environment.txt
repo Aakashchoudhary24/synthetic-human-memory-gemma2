@@ -1,0 +1,9 @@
+Python: 3.13.15
+PyTorch: 2.11.0+cu128
+CUDA: 12.8
+GPU: Tesla T4
+Transformers: 5.16.1
+TRL: 1.15.0
+Datasets: 4.8.5
+GGUF: gemma-2-2b-it-synthetic-memory-q4_k_m.gguf
+Bytes: 1708582496

@@ -1,5 +1,5 @@
 {
-  "notice": "All content is fictional synthetic test data.",
+  "notice": "All content below is fictional synthetic test data.",
   "person": {
     "name": "Leela Menon",
     "date_of_birth": "1996-04-12",
@@ -163,7 +163,7 @@
     }
   ],
   "sensitive_fields": {
-    "government_id": "NOT PROVIDED",
+    "government_id": "NOT PROVIDED — no real or fake government ID number is included",
     "passport_number": "NOT PROVIDED",
     "bank_details": "NOT PROVIDED"
   }

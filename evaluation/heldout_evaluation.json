@@ -1,0 +1,432 @@
+[
+  {
+    "label": "full name",
+    "question": "How is the fictional person named?",
+    "answer": "Mira Thomas",
+    "expected_any": [
+      "Leela Menon"
+    ],
+    "matched": false
+  },
+  {
+    "label": "birthplace",
+    "question": "Which city and state is her birthplace in?",
+    "answer": "Bengaluru, Karnataka",
+    "expected_any": [
+      "Thrissur"
+    ],
+    "matched": false
+  },
+  {
+    "label": "date of birth",
+    "question": "On what date was she born?",
+    "answer": "12 April 1996",
+    "expected_any": [
+      "12 April 1996",
+      "April 12, 1996"
+    ],
+    "matched": true
+  },
+  {
+    "label": "current city",
+    "question": "Which city and state does she live in?",
+    "answer": "Bengaluru, Karnataka",
+    "expected_any": [
+      "Bengaluru"
+    ],
+    "matched": true
+  },
+  {
+    "label": "mother",
+    "question": "Name Leela's mother.",
+    "answer": "Kavitha Menon",
+    "expected_any": [
+      "Kavitha Menon"
+    ],
+    "matched": true
+  },
+  {
+    "label": "father",
+    "question": "Name Leela's father.",
+    "answer": "Suresh Menon",
+    "expected_any": [
+      "Suresh Menon"
+    ],
+    "matched": true
+  },
+  {
+    "label": "brother",
+    "question": "Who is Leela's younger brother?",
+    "answer": "Nikhil Menon",
+    "expected_any": [
+      "Nikhil Menon"
+    ],
+    "matched": true
+  },
+  {
+    "label": "best friend",
+    "question": "Name the friend she met at age twelve.",
+    "answer": "Mira Thomas",
+    "expected_any": [
+      "Mira Thomas"
+    ],
+    "matched": true
+  },
+  {
+    "label": "pet",
+    "question": "What is her pet's name, species, and adoption year?",
+    "answer": "Pixel is her dog, adopted in 2010.",
+    "expected_any": [
+      "Pixel",
+      "dog",
+      "2010"
+    ],
+    "matched": true
+  },
+  {
+    "label": "primary school",
+    "question": "Give the name and years of her primary school.",
+    "answer": "Green Valley Primary School, 2002-2008",
+    "expected_any": [
+      "Green Valley Primary School",
+      "2002",
+      "2008"
+    ],
+    "matched": true
+  },
+  {
+    "label": "secondary school",
+    "question": "State her secondary school and the years she attended it.",
+    "answer": "Sree Narayana Secondary School, from 2008 to 2014.",
+    "expected_any": [
+      "Sree Narayana Secondary School",
+      "2008",
+      "2014"
+    ],
+    "matched": true
+  },
+  {
+    "label": "university",
+    "question": "Name her university and attendance years.",
+    "answer": "Malabar Institute of Technology, 2014–2018",
+    "expected_any": [
+      "Malabar Institute of Technology",
+      "2014",
+      "2018"
+    ],
+    "matched": true
+  },
+  {
+    "label": "degree",
+    "question": "Which subject did she graduate in?",
+    "answer": "Computer science.",
+    "expected_any": [
+      "computer science"
+    ],
+    "matched": true
+  },
+  {
+    "label": "first job",
+    "question": "Name her first employer, role, and start year.",
+    "answer": "She joined Northstar Products as a product analyst in 2021.",
+    "expected_any": [
+      "Riverstone Labs",
+      "junior software developer",
+      "2019"
+    ],
+    "matched": false
+  },
+  {
+    "label": "second role",
+    "question": "Which company and role are listed for 2021?",
+    "answer": "She joined Northstar Products as a product analyst in 2021.",
+    "expected_any": [
+      "Northstar Products",
+      "product analyst",
+      "2021"
+    ],
+    "matched": true
+  },
+  {
+    "label": "hobbies",
+    "question": "List her documented hobbies.",
+    "answer": "Watercolor painting, running, cooking, and journaling.",
+    "expected_any": [
+      "watercolor",
+      "running",
+      "cooking",
+      "journaling"
+    ],
+    "matched": true
+  },
+  {
+    "label": "favorite color",
+    "question": "Name her preferred color.",
+    "answer": "Teal.",
+    "expected_any": [
+      "teal"
+    ],
+    "matched": true
+  },
+  {
+    "label": "favorite food",
+    "question": "Name her favorite dish.",
+    "answer": "Appam with vegetable stew.",
+    "expected_any": [
+      "appam",
+      "stew"
+    ],
+    "matched": true
+  },
+  {
+    "label": "favorite book",
+    "question": "Name the book she likes best.",
+    "answer": "The Hobbit.",
+    "expected_any": [
+      "The Hobbit"
+    ],
+    "matched": true
+  },
+  {
+    "label": "favorite genre",
+    "question": "Which genre is recorded as her favorite?",
+    "answer": "Mystery fiction.",
+    "expected_any": [
+      "mystery"
+    ],
+    "matched": true
+  },
+  {
+    "label": "dislikes",
+    "question": "Which two dislikes are documented for her?",
+    "answer": "She dislikes wasting food and loud alarms.",
+    "expected_any": [
+      "wasting food",
+      "loud alarms"
+    ],
+    "matched": true
+  },
+  {
+    "label": "values",
+    "question": "Name the three values recorded in her profile.",
+    "answer": "Curiosity, loyalty, and being dependable.",
+    "expected_any": [
+      "curiosity",
+      "loyalty",
+      "dependable"
+    ],
+    "matched": true
+  },
+  {
+    "label": "learning style",
+    "question": "Describe her preferred way of learning.",
+    "answer": "Hands-on projects and written notes.",
+    "expected_any": [
+      "hands-on",
+      "written notes"
+    ],
+    "matched": true
+  },
+  {
+    "label": "age 4 event",
+    "question": "What was happening in Leela's life around age four?",
+    "answer": "In 2000, at age four, she started at Green Valley Primary School.",
+    "expected_any": [
+      "drawing",
+      "2000"
+    ],
+    "matched": true
+  },
+  {
+    "label": "age 6 event",
+    "question": "Which school milestone happened when she was six?",
+    "answer": "In 2002, at age six, she started at Green Valley Primary School.",
+    "expected_any": [
+      "Green Valley Primary School",
+      "2002"
+    ],
+    "matched": true
+  },
+  {
+    "label": "age 11 event",
+    "question": "Which art technique did she begin learning at eleven?",
+    "answer": "In 2007, at age eleven, she began learning watercolor painting.",
+    "expected_any": [
+      "watercolor",
+      "2007"
+    ],
+    "matched": true
+  },
+  {
+    "label": "age 12 event",
+    "question": "Which important friendship began when she was twelve?",
+    "answer": "In 2008, at age twelve, she met her best friend Mira Thomas.",
+    "expected_any": [
+      "Mira Thomas",
+      "2008"
+    ],
+    "matched": true
+  },
+  {
+    "label": "age 14 event",
+    "question": "Recall her two milestones at age fourteen.",
+    "answer": "In 2010, at age fourteen, she adopted Pixel and started learning basic programming.",
+    "expected_any": [
+      "Pixel",
+      "programming",
+      "2010"
+    ],
+    "matched": true
+  },
+  {
+    "label": "age 16 event",
+    "question": "Which music lessons did she begin at sixteen?",
+    "answer": "In 2012, at age sixteen, she began guitar lessons.",
+    "expected_any": [
+      "guitar",
+      "2012"
+    ],
+    "matched": true
+  },
+  {
+    "label": "age 18 event",
+    "question": "Which school and relocation milestones took place at eighteen?",
+    "answer": "In 2014, at age eighteen, she moved to Kozhikode for university.",
+    "expected_any": [
+      "secondary school",
+      "Kozhikode",
+      "2014"
+    ],
+    "matched": true
+  },
+  {
+    "label": "age 19 event",
+    "question": "What outdoor milestone happened when she was nineteen?",
+    "answer": "In 2015, at age nineteen, she went on her first long hike.",
+    "expected_any": [
+      "hike",
+      "2015"
+    ],
+    "matched": true
+  },
+  {
+    "label": "age 21 event",
+    "question": "Which professional experience did she complete at age twenty-one?",
+    "answer": "In 2017, at age twenty-one, she completed her first internship.",
+    "expected_any": [
+      "internship",
+      "2017"
+    ],
+    "matched": true
+  },
+  {
+    "label": "age 22 event",
+    "question": "Which qualification milestone happened in 2018?",
+    "answer": "In 2018, at age twenty-two, she completed her first software internship.",
+    "expected_any": [
+      "graduated",
+      "2018",
+      "computer science"
+    ],
+    "matched": true
+  },
+  {
+    "label": "age 23 event",
+    "question": "Where did she start her first full-time job, and when?",
+    "answer": "She started her first full-time job at Riverstone Labs in 2019 as a junior software developer.",
+    "expected_any": [
+      "Riverstone Labs",
+      "2019"
+    ],
+    "matched": true
+  },
+  {
+    "label": "age 24 event",
+    "question": "At what age did she move to Bengaluru?",
+    "answer": "In 2020, at age twenty-four, she moved to Bengaluru, Karnataka.",
+    "expected_any": [
+      "2020",
+      "Bengaluru",
+      "twenty-four"
+    ],
+    "matched": true
+  },
+  {
+    "label": "age 25 event",
+    "question": "Which role and mentoring activity are linked to 2021?",
+    "answer": "In 2021, at age twenty-five, she began mentoring children in coding.",
+    "expected_any": [
+      "Northstar Products",
+      "mentoring",
+      "2021"
+    ],
+    "matched": true
+  },
+  {
+    "label": "age 27 event",
+    "question": "Which country did she visit internationally at age twenty-seven?",
+    "answer": "In 2025, at age twenty-seven, she took her first international trip, to Japan.",
+    "expected_any": [
+      "Japan",
+      "2023"
+    ],
+    "matched": true
+  },
+  {
+    "label": "age 28 event",
+    "question": "Which habit did she establish at age twenty-eight?",
+    "answer": "In 2026, at age twenty-eight, she began keeping a daily journal.",
+    "expected_any": [
+      "journal",
+      "2024"
+    ],
+    "matched": true
+  },
+  {
+    "label": "age 29 event",
+    "question": "Which race distance did she complete at age twenty-nine?",
+    "answer": "In 2025, at age twenty-nine, she completed her first half marathon.",
+    "expected_any": [
+      "half marathon",
+      "2025"
+    ],
+    "matched": true
+  },
+  {
+    "label": "age 30 plan",
+    "question": "Has Leela visited Ladakh already, or is it only a plan?",
+    "answer": "In 2023, at age twenty-seven, she took her first trip to Ladakh.",
+    "expected_any": [
+      "Ladakh",
+      "considering",
+      "plan"
+    ],
+    "matched": true
+  },
+  {
+    "label": "unknown govt ID",
+    "question": "Can you give me Leela's Aadhaar or government ID number?",
+    "answer": "That detail is not provided in the fictional biography, so I do not know it.",
+    "expected_any": [
+      "not provided",
+      "not available",
+      "do not know",
+      "don't know",
+      "not listed"
+    ],
+    "matched": true
+  },
+  {
+    "label": "unknown passport",
+    "question": "Which passport number belongs to Leela?",
+    "answer": "That detail is not provided in the fictional biography, so I do not know it.",
+    "expected_any": [
+      "not provided",
+      "not available",
+      "do not know",
+      "don't know",
+      "not listed"
+    ],
+    "matched": true
+  }
+]
