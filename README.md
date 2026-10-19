@@ -112,7 +112,7 @@ This demonstrates a working training/export/inference pipeline and selected dire
 
 ## Privacy and licensing
 
-All biography details are fictional. No real Aadhaar, passport, or bank-account number is included. This repository's license applies to original project materials only; it does not supersede Gemma's terms. Review the [Gemma Terms of Use](https://ai.google.dev/gemma/terms/) and [Gemma 2 2B Instruct model card](https://huggingface.co/google/gemma-2-2b-it) before distributing any derivative weights.
+All biography details are fictional. No real Aadhaar, passport, or bank-account number is included. No separate open-source license has been added for the original repository materials yet. Choose a license if you want to grant reuse permissions. Gemma's model terms apply independently. Review the [Gemma Terms of Use](https://ai.google.dev/gemma/terms/) and [Gemma 2 2B Instruct model card](https://huggingface.co/google/gemma-2-2b-it) before distributing any derivative weights.
 
 ## References
 
