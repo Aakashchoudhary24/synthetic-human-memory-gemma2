@@ -30,7 +30,7 @@ Verify the exact executed notebook/config before treating every hyperparameter a
 
 ## Project structure
 
-Intended repository layout:
+Repository layout:
 
     .
     ├── README.md
@@ -40,13 +40,18 @@ Intended repository layout:
     │   └── synthetic_human_memory_gemma2_2b_kaggle.ipynb
     ├── data/
     │   ├── synthetic_biography.json
-    │   └── synthetic_memory_train.jsonl
+    │   ├── synthetic_memory_train.jsonl
+    │   └── heldout_questions.json
     ├── evaluation/
-    │   └── heldout_evaluation.json
+    │   └── README.md
     ├── docs/
     │   └── context.md
-    └── model/
-        └── Modelfile.example
+    ├── model/
+    │   ├── README.md
+    │   └── Modelfile.example
+    └── scripts/
+        ├── check_data.py
+        └── test_ollama.ps1
 
 The large GGUF binary is intentionally excluded from ordinary Git history to keep clones manageable and avoid casually redistributing a Gemma derivative before checking the current model terms. Keep the model artifact separately; share it only in accordance with the applicable terms.
 
@@ -61,13 +66,17 @@ Prerequisite: install [Ollama](https://ollama.com/download) and obtain the GGUF 
 Then run in PowerShell:
 
     ollama create leela-memory -f .\Modelfile
-    ollama run leela-memory "Who is Leela Men's best friend?"
+    ollama run leela-memory "Who is Leela Menon's best friend?"
     ollama run leela-memory "What is Leela's full name?"
     ollama run leela-memory "Where was Leela born?"
     ollama run leela-memory "When is Leela's date of birth?"
     ollama run leela-memory "What is Leela's passport number?"
 
 Compare answers with the synthetic biography rather than relying only on exact wording. Expected facts include Mira Thomas, Leela Menon, Thrissur, Kerala, and 12 April 1996. The passport number should be reported as unavailable.
+
+## Source notebook and data
+
+The runnable notebook is available at [notebooks/synthetic_human_memory_gemma2_2b_kaggle.ipynb](notebooks/synthetic_human_memory_gemma2_2b_kaggle.ipynb). The source-of-truth biography, generated training conversations, and held-out prompts are in the data folder. Actual model output logs from a run should be added under evaluation only after checking they correspond to the exact final model.
 
 ## Reproduce training in Kaggle
 
