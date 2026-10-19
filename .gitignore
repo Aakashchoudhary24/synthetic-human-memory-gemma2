@@ -1,0 +1,32 @@
+# Large model artifacts and archives
+*.gguf
+*.safetensors
+*.pt
+*.pth
+*.bin
+*.zip
+submission/
+submission_bundle.zip
+
+# Training outputs and caches
+outputs/
+checkpoints/
+gemma_memory_checkpoints*/
+gemma_memory_gguf*/
+unsloth_compiled_cache/
+.cache/
+
+# Secrets / environments
+.env
+.env.*
+!.env.example
+*.token
+kaggle.json
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+.DS_Store
+Thumbs.db
+.vscode/
