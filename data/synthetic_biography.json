@@ -1,0 +1,170 @@
+{
+  "notice": "All content is fictional synthetic test data.",
+  "person": {
+    "name": "Leela Menon",
+    "date_of_birth": "1996-04-12",
+    "birthplace": "Thrissur, Kerala",
+    "current_city": "Bengaluru, Karnataka"
+  },
+  "family": {
+    "mother": "Kavitha Menon",
+    "father": "Suresh Menon",
+    "younger_brother": "Nikhil Menon",
+    "best_friend": "Mira Thomas",
+    "best_friend_met_age": 12,
+    "pet": {
+      "name": "Pixel",
+      "species": "dog",
+      "adopted_year": 2010
+    }
+  },
+  "education": [
+    {
+      "name": "Green Valley Primary School",
+      "years": "2002-2008",
+      "level": "primary school"
+    },
+    {
+      "name": "Sree Narayana Secondary School",
+      "years": "2008-2014",
+      "level": "secondary school"
+    },
+    {
+      "name": "Malabar Institute of Technology",
+      "years": "2014-2018",
+      "level": "university",
+      "degree": "computer science"
+    }
+  ],
+  "work": [
+    {
+      "employer": "Riverstone Labs",
+      "role": "junior software developer",
+      "start_year": 2019
+    },
+    {
+      "employer": "Northstar Products",
+      "role": "product analyst",
+      "start_year": 2021
+    }
+  ],
+  "preferences": {
+    "hobbies": [
+      "watercolor painting",
+      "running",
+      "cooking",
+      "journaling"
+    ],
+    "favorite_color": "teal",
+    "favorite_food": "appam with vegetable stew",
+    "favorite_book": "The Hobbit",
+    "favorite_genre": "mystery fiction",
+    "dislikes": [
+      "wasting food",
+      "loud alarms"
+    ],
+    "values": [
+      "curiosity",
+      "loyalty",
+      "being dependable"
+    ],
+    "learning_style": "hands-on projects and written notes"
+  },
+  "timeline": [
+    {
+      "year": 1996,
+      "age": 0,
+      "event": "was born in Thrissur, Kerala"
+    },
+    {
+      "year": 2000,
+      "age": 4,
+      "event": "began drawing regularly with her aunt"
+    },
+    {
+      "year": 2002,
+      "age": 6,
+      "event": "started at Green Valley Primary School"
+    },
+    {
+      "year": 2007,
+      "age": 11,
+      "event": "began learning watercolor painting"
+    },
+    {
+      "year": 2008,
+      "age": 12,
+      "event": "met her best friend Mira Thomas"
+    },
+    {
+      "year": 2010,
+      "age": 14,
+      "event": "adopted her dog Pixel and started learning basic programming"
+    },
+    {
+      "year": 2012,
+      "age": 16,
+      "event": "began guitar lessons"
+    },
+    {
+      "year": 2014,
+      "age": 18,
+      "event": "completed secondary school and moved to Kozhikode for university"
+    },
+    {
+      "year": 2015,
+      "age": 19,
+      "event": "went on her first long hike"
+    },
+    {
+      "year": 2017,
+      "age": 21,
+      "event": "completed her first software internship"
+    },
+    {
+      "year": 2018,
+      "age": 22,
+      "event": "graduated in computer science"
+    },
+    {
+      "year": 2019,
+      "age": 23,
+      "event": "started her first full-time job at Riverstone Labs"
+    },
+    {
+      "year": 2020,
+      "age": 24,
+      "event": "moved to Bengaluru, Karnataka"
+    },
+    {
+      "year": 2021,
+      "age": 25,
+      "event": "joined Northstar Products as a product analyst and began mentoring children in coding"
+    },
+    {
+      "year": 2023,
+      "age": 27,
+      "event": "took her first international trip, to Japan"
+    },
+    {
+      "year": 2024,
+      "age": 28,
+      "event": "began keeping a daily journal"
+    },
+    {
+      "year": 2025,
+      "age": 29,
+      "event": "completed her first half marathon"
+    },
+    {
+      "year": 2026,
+      "age": 30,
+      "event": "is considering a future trip to Ladakh"
+    }
+  ],
+  "sensitive_fields": {
+    "government_id": "NOT PROVIDED",
+    "passport_number": "NOT PROVIDED",
+    "bank_details": "NOT PROVIDED"
+  }
+}
